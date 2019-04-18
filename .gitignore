@@ -2,3 +2,7 @@
 \.DS_Store
 
 Textbook/Artificial_Intelligence_A_Modern_Approach_3rd\.pdf
+
+*.zip
+
+assn1/\.idea/
