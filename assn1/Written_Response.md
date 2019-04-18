@@ -28,8 +28,11 @@ Human error caused Facebook services to go down for 24 hours. Fixing the bug was
 
 - Initial State: There are 3 baskets with a X amount of marbles in basket 1, Y amount in basket 2, and Z amount in basket 3.
 
-- State Representation: <!-- WIP -->
-
+- State Representation:
+```
+A B C
+```
+Where A, B, and C represent a basket with a certain number of marbles. Goal condition is A = B = C
 
 - Goal/Termination Condition: When all 3 baskets have the same number of marbles
 
@@ -45,7 +48,15 @@ Human error caused Facebook services to go down for 24 hours. Fixing the bug was
 
 - Initial State: There is a board that has a dimension of NxN and there are Y amount of queens to be placed on the board.
 
-- State Representation: <!-- WIP -->
+- State Representation:
+```
+1   2   3   4   ... n
+n+1 n+2 n+3 n+4 ... 2n
+... ... ... ... ... ...
+... ... ... ... ... ...
+n(n-1)+1 .. ... ... n^2
+```
+Where each number represents a spot on the chess board. Each spot can be represented with a 0 or 1, which means a queen is not there or there respectively. The goal condition is to have y number of 1's on the board that are all neither in the same row, column, or diagonal from one another.
 
 - Goal/Termination Condition: All queens are placed on the board and cannot be killed by another queen.
 
