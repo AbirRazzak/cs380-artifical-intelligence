@@ -10,3 +10,7 @@ Textbook/Artificial_Intelligence_A_Modern_Approach_3rd\.pdf
 assn1/\.idea/
 
 Textbook/
+
+assn1/__pycache__/
+
+assn3/Programming/__pycache__/
